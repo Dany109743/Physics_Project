@@ -1,0 +1,81 @@
+*{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    color: #0ff;
+}
+
+*::selection{
+    background-color: rgb(125, 0, 242);
+    color: rgb(0, 0,0);
+}
+
+a{
+    transition: color .5s;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(255, 166, 0);
+}
+
+nav{
+    position: fixed;
+    width: 19em;
+}
+
+.nav__lu__li--a{
+    margin: 0 6%;
+    display: inline-block;
+    
+}
+.body{
+    background-color: rgb(9, 22, 59) ;
+}
+
+p{
+    color: #0ff;
+}
+
+.first--div{
+    font-size: 10px;
+}
+
+
+a{
+    color: white;
+}
+
+.container, .container2 {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    padding: 30px 0;
+}
+
+
+.container--h1 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 6em;
+    background-color: rgb(40, 134, 241);
+    padding: 0.25em 0.5em;
+    box-sizing: border-box;
+    margin: 0.45em;
+    border-radius: 5%;
+    border: 0.2em double rgb(0, 94, 255);
+    text-shadow: 1px 1px rgb(255, 255, 255);
+}
+
+.first--div__p{
+    text-align: center;
+    margin: 30% 2em auto;
+    justify-content: center;
+    align-self: center;
+    font-size: 2em;
+
+}

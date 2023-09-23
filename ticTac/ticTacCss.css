@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a{
+    transition: color .5s;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(255, 255, 255);
+}
+
+nav{
+    padding-top: 20px;
+    padding-left: 20px;
+    position: fixed;
+    width: 19em;
+}
+
+.nav__lu__li--a{
+    margin: 0 6%;
+    display: inline-block;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    font-size: 16px;
+    background-color: #ffffbb;
+    background-image: linear-gradient(43deg, #ffffbb 0%, #f2cd7b 30%, #ffb800 66%);
+    display: block;
+}
+
+
+.main{
+    position: absolute;
+    transform: translate(-50%, -65%);
+    top: 70%;
+    left: 50%;
+}
+
+
+.container {
+    width: 70vmin;
+    height: 70vmin;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2vmin;
+}
+
+.users{
+    display: flex;
+    justify-content: space-between;
+}
+
+.user1, .user2{
+    padding: 10px;
+    margin-bottom: 25px;
+    border: 1px solid #fff;
+}
+
+.turn{
+    position: absolute;
+    text-align: center;
+    top: -16%;
+    left: 40%;
+    font-size: 5vmin;
+}
+
+.btnOption{
+    background-color: #fff;
+    height: 22vmin;
+    width: 22vmin;
+    border-radius: 8px;
+    font-size: 12vmin;
+}
+
+.replay{
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    margin: 20px auto;
+    display: block;
+    text-transform: capitalize;
+}
+
+.screen2{
+    background-image: linear-gradient(43deg, #ffffbb 0%, #f2cd7b 30%, #ffb800 66%);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    z-index: 2;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1em;
+    font-size: 12vmin;
+}
+
+#restart{
+    font-size: .6em;
+    padding: .5em 1em;
+    background-color: #f6cb49;
+    border-radius: .2em;
+}
+
+#message{
+    color: #1184ff;
+    text-align: center;
+    font-size: 1em;
+}
+
+.screen2.hide{
+    display: none;
+}
